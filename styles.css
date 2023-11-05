@@ -1,0 +1,156 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 12px 40px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-right > img {
+    width: 300px;
+    margin: 48px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    text-decoration: none;
+    color: #F9FAF8;
+    
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+}
+
+.header, .top-section, .footer {
+background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding-left: 40px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin-left: 40px;
+    margin-top: 4px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.sub, .right-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sub {
+    padding-left: 40px;
+}
+
+.cards-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.cards1 > img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 4px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.cards1 {
+    max-width: 100px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px 140px;
+}
+
+.quote-main {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.author {
+    text-align: right;
+    font-weight: 700;
+}
+
+.call {
+    margin: 50px 200px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 20px 40px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-left1 {
+    font-weight: 700;
+}
+
+.call-right {
+    text-wrap: nowrap;
+}
+
+.button2 {
+    border-style: solid; 
+    border-width: 1px;
+    border-color: white;
+
+}
+
+.footer {
+    color: white;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
